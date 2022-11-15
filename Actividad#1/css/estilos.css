@@ -1,0 +1,11 @@
+body
+{
+    background-color: brown; 
+    font-family:'Times New Roman', Times, serif;
+}  
+
+#main_wrapper
+{
+    width: 900px;
+    margin:auto; 
+}
