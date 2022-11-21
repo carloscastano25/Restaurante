@@ -13,14 +13,26 @@ body
     background-color: rgb(236, 152, 152); 
 
 }
-
-#main_title
+#logo, header h1
+{
+    display:inline-block;
+    margin-top: 0px;
+}
+#main_title img
 {
    display:inline-block;
+   height: 100px;
+   border-radius: 5px;
+   background: url(../Images/Restautante\ _1.jpg) no-repeat;
+   position: relative;
+   box-shadow: 0px 4px 4px #180101;
+   margin-bottom: 25px;
 }
-nav
+nav a
 {
 flex-wrap: nowrap;
+text-align:justify;
+margin-right: 20px;
 }
 
 .vin{
@@ -28,7 +40,6 @@ flex-wrap: nowrap;
    background-color: brown; 
    text-decoration: none;
    color: white;
-   font-family: monospace;
 }
 
 .vin:hover{
